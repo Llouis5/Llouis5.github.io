@@ -1,3 +1,3 @@
 function greet(){
-window.alert("Hello there!");
+window.alert("PLAGIAT!");
 }
