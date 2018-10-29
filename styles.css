@@ -1,5 +1,5 @@
 body {
-  margin-left: 200px;
+  margin-left: 250px;
   background-color:#FEE437;
   color:#6C0F83;
 }
@@ -37,4 +37,6 @@ a:visited {
   color: #2740E8;
 }
 
-
+.tgp{
+    color:forestgreen;
+}

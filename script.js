@@ -1,6 +1,5 @@
 function greet(){
-    window.alert("The best flowers are peonies!\nClick ok to get redirected to images of peony");
-    window.open("https://www.google.pl/search?q=peony&rlz=1C1CHBD_frFR794FR795&source=lnms&tbm=isch&sa=X&ved=0ahUKEwig0Z7EpareAhUohaYKHYaKDUwQ_AUIDigB&biw=958&bih=959");
+    window.alert("Well Hello there");
 }
 
 function init()
