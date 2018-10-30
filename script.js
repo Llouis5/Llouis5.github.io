@@ -33,5 +33,13 @@ function init()
     };
 
     document.getElementById("event").addEventListener("mouseover", changeSrc);
-    /*let filename = event.target.src.replace(/^.*[\\\/]/, '');*/
+}
+
+function init2() {
+    document.getElementById("tgp").innerHTML = "The Good Place";
+}
+function troll()
+{
+    window.alert("I told you not to *sigh*");
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }

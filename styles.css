@@ -2,6 +2,7 @@ body {
   margin-left: 250px;
   background-color:#FEE437;
   color:#6C0F83;
+  text-align:center;
 }
 
 ul.navbar {
@@ -24,7 +25,7 @@ ul.navbar a {
   text-decoration: none
 }
 .dimension img{
-display:inline-block;width:500px;height:500px;
+display:inline-block;width:1200px;height:700px;
 white-space:nowrap;
 overflow:hidden;
 }
@@ -37,6 +38,21 @@ a:visited {
   color: #2740E8;
 }
 
-.tgp{
+#tgp{
     color:forestgreen;
+}
+#tbp{
+    color:red;
+}
+#tmp{
+    color:black;
+}
+ol{
+    text-align:left;
+}
+#left{
+    text-align:left;
+}
+#end{
+    text-align:right;
 }

@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
   </head>
-  <body>
+  <body onload="init2()">
   <ul class="navbar">
     <li> <a href="index.html">Home</a></li>
     <li> <a href="https://pl.wikipedia.org/wiki/Dobre_miejsce">Wikipedia Page</a></li>
@@ -12,10 +13,34 @@
     <li> <a href="https://esigetel.rip/">Esigetel tribute</a></li>
   </ul>
     <h1>Welcome to the medium place !</h1>
-    <h2>A perfectly balanced place where nothing is good nor bad</h2>
-      <p>The medium place is a fictional place in a TV serie called <span class="tgp">"The Good Place"</span></p>
-    <div class="dimension">
-    <img src="https://media.giphy.com/media/8FxtdFhCKXLFTWkX1H/giphy.gif">
-    </div>
+    <h2>A perfectly balanced place where nothing is good nor bad<br />Like this web page.</h2>
+      <p>The medium place is a fictional place in a TV serie called <span id="tgp"></span>.<br />The serie follows the adventure of Eleanor Shellstrop whom <b>(spoiler alert)</b> appeared to have been mistakenly placed in <span id="tgp">The Good Place</span>. </p>
+      <p>The protagonist played by Kristen Bell will have to learn ethics and moral phylosophy in order to stay in <span id="tgp">The Good Place</span>.<br /><br /><br /><div id="left">There is basically 3 major places in this TV serie such as : </div></p>
+      <ol>
+          <li id="tgp">The Good Place</li>
+          <li id="tbp">The Bad Place</li>
+          <li id="tmp">The Medium Place</li>
+      </ol>
+      
+    <h2 id="tgp">The Good Place</h2>
+      <div class="dimension"><img src="https://vignette.wikia.nocookie.net/thegoodplace/images/c/ce/Chapter_1_screenshot_1.jpg/revision/latest?cb=20171204224425"</div>
+      <p id="tgp">The Good Place is another realm where the truly good people of Earth go when they die and enter their next stage of existence.<br />
+          The Good Place has likely existed since the beginning of time (at the very least since humans existed) and is, so we are told, a utopian paradise for those that were truly noble and good in life.<br />
+          Each day in The Good Place is a blissful existence where a human may have anything they desire simple by calling on their neighborhood's Janet.<br/>
+      Humans in The Good Place also never experience any kind of pain, do not age and cannot perish.</p>
+    <h2 id="tbp">The Bad Place</h2>
+      <div><img src="https://vignette.wikia.nocookie.net/thegoodplace/images/d/d2/Hellfire.jpg/revision/latest?cb=20171021011455"</div>
+      <p id="tbp">The Bad Place has likely existed since the beginning of time (at the very least since humans existed) <br />and is a hellish damnation for not only those that were evil in life but for those humans whose final point total wasn't high enough to enter <span id="tgp">The Good Place.</span>Gaining entry into The Bad Place is very easy.<br />From the moment of birth every action and decision that a human makes either had a positive or negative effect, thus affecting that human's overall point score total.<br /> The bigger the action, the bigger the point difference, but there is a catch. Simply doing good deeds is not enough to raise a human's point total, as their motivations must be pure, otherwise it is seen as a selfish act.<br /> It appears that the simple fact of being from France or Florida is also enough to condemn one to The Bad Place. </p>
+    <h2 id="tmp">The Medium Place</h2>
+      <div class="dimension"><img src="https://vignette.wikia.nocookie.net/thegoodplace/images/1/10/The_Medium_Place.jpg/revision/latest?cb=20171021013351" /></div>
+      <p id="tmp">The Medium Place has at most only been around since the 1980s, when Mindy St. Claire died, and both The Good Place and The Bad Place argued for an unknown period of time over who should get her.<br />
+          Mindy St. Claire who underwent a posthumous point spike had to be place somewhere<br/>
+Eventually they came to a compromise, and created a new realm of mediocre existence for Mindy to live in by herself for the rest of eternity.<br />
+Since it has only one resident, there isn't even a neighborhood as such, just one house and a railway station, the nameboard of which reads "Neighborhood: [N/A]".</p>
+      <div id="end">
+      <p>Source:Thegoodplace.wikia.com</p>
+          <button type="button" onclick="troll()">Don't click on that button!</button>
+          <script src="script.js"></script>
+      </div>
   </body>
 </html>
